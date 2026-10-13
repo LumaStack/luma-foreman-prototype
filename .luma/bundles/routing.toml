@@ -6,353 +6,361 @@
 # writes here.
 
 [[rule]]
-bundle = "lumastack/luma-catalog/audit-records"
+bundle = "lumastack/luma-catalog-prototype/audit-records"
 document = "policy/audit-layout"
 title = "How audits are stored"
-path = ".luma/bundles/lumastack/luma-catalog/audit-records/policy/audit-layout.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/audit-records/policy/audit-layout.md"
 on_violation = "allow"
 matches = ["eager"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/audit-records"
+bundle = "lumastack/luma-catalog-prototype/audit-records"
 document = "policy/writing-findings"
 title = "Writing a finding"
-path = ".luma/bundles/lumastack/luma-catalog/audit-records/policy/writing-findings.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/audit-records/policy/writing-findings.md"
 on_violation = "allow"
 matches = ["topic:writing a finding in an audit"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/backlog"
+bundle = "lumastack/luma-catalog-prototype/backlog"
 document = "policy/adopting-a-rule-the-corpus-does-not-meet"
 title = "Adopting a rule the corpus does not meet"
-path = ".luma/bundles/lumastack/luma-catalog/backlog/policy/adopting-a-rule-the-corpus-does-not-meet.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/backlog/policy/adopting-a-rule-the-corpus-does-not-meet.md"
 on_violation = "allow"
 matches = ["topic:adopting a rule, tightening a policy, or changing what a record must contain"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/backlog"
+bundle = "lumastack/luma-catalog-prototype/backlog"
 document = "policy/showing-records"
 title = "Showing records"
-path = ".luma/bundles/lumastack/luma-catalog/backlog/policy/showing-records.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/backlog/policy/showing-records.md"
 on_violation = "allow"
 matches = ["eager"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/backlog"
+bundle = "lumastack/luma-catalog-prototype/backlog"
 document = "policy/when-a-work-item-splits"
 title = "When a work item splits"
-path = ".luma/bundles/lumastack/luma-catalog/backlog/policy/when-a-work-item-splits.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/backlog/policy/when-a-work-item-splits.md"
 on_violation = "allow"
 matches = ["eager"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/backlog-ideas"
+bundle = "lumastack/luma-catalog-prototype/backlog-ideas"
 document = "policy/capturing-ideas"
 title = "What is worth capturing"
-path = ".luma/bundles/lumastack/luma-catalog/backlog-ideas/policy/capturing-ideas.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/backlog-ideas/policy/capturing-ideas.md"
 on_violation = "allow"
 matches = ["eager"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/backlog-ideas"
+bundle = "lumastack/luma-catalog-prototype/backlog-ideas"
 document = "policy/tending-ideas"
 title = "Tending ideas"
-path = ".luma/bundles/lumastack/luma-catalog/backlog-ideas/policy/tending-ideas.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/backlog-ideas/policy/tending-ideas.md"
 on_violation = "allow"
 matches = ["topic:pruning, archiving or reviewing a backlog"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/backlog-ideas"
+bundle = "lumastack/luma-catalog-prototype/backlog-ideas"
 document = "policy/where-an-idea-lives"
 title = "Where an idea lives"
-path = ".luma/bundles/lumastack/luma-catalog/backlog-ideas/policy/where-an-idea-lives.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/backlog-ideas/policy/where-an-idea-lives.md"
 on_violation = "allow"
 matches = ["topic:capturing an idea worth keeping"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/bundle-manager"
+bundle = "lumastack/luma-catalog-prototype/bundle-manager"
 document = "policy/an-index-of-what-exists"
 title = "An index of what exists"
-path = ".luma/bundles/lumastack/luma-catalog/bundle-manager/policy/an-index-of-what-exists.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/bundle-manager/policy/an-index-of-what-exists.md"
 on_violation = "allow"
 matches = ["topic:deciding what a consumer should load, and when"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/bundle-manager"
+bundle = "lumastack/luma-catalog-prototype/bundle-manager"
 document = "policy/organizing-a-bundle"
 title = "Organizing a bundle"
-path = ".luma/bundles/lumastack/luma-catalog/bundle-manager/policy/organizing-a-bundle.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/bundle-manager/policy/organizing-a-bundle.md"
 on_violation = "allow"
 matches = ["eager"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/bundle-manager"
+bundle = "lumastack/luma-catalog-prototype/bundle-manager"
 document = "policy/what-a-bundle-may-carry"
 title = "What a bundle may carry"
-path = ".luma/bundles/lumastack/luma-catalog/bundle-manager/policy/what-a-bundle-may-carry.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/bundle-manager/policy/what-a-bundle-may-carry.md"
 on_violation = "allow"
 matches = ["topic:putting somebody else's writing, code or data into a bundle", "topic:deciding whether to vendor an external document or link to it"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/bundle-manager"
+bundle = "lumastack/luma-catalog-prototype/bundle-manager"
 document = "policy/where-a-bundle-belongs"
 title = "Where a bundle belongs"
-path = ".luma/bundles/lumastack/luma-catalog/bundle-manager/policy/where-a-bundle-belongs.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/bundle-manager/policy/where-a-bundle-belongs.md"
 on_violation = "allow"
 matches = ["topic:deciding which catalog a bundle belongs in"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/command-line-interface"
+bundle = "lumastack/luma-catalog-prototype/command-line-interface"
 document = "policy/ascii-styleguide"
 title = "ASCII style guide"
-path = ".luma/bundles/lumastack/luma-catalog/command-line-interface/policy/ascii-styleguide.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/command-line-interface/policy/ascii-styleguide.md"
 on_violation = "allow"
 matches = ["eager"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/command-line-interface"
+bundle = "lumastack/luma-catalog-prototype/command-line-interface"
 document = "policy/command-line-interface-guidelines"
 title = "Command line interface guidelines"
-path = ".luma/bundles/lumastack/luma-catalog/command-line-interface/policy/command-line-interface-guidelines.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/command-line-interface/policy/command-line-interface-guidelines.md"
 on_violation = "allow"
 matches = ["eager"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/command-line-interface"
+bundle = "lumastack/luma-catalog-prototype/command-line-interface"
 document = "policy/command-line-style-guide"
 title = "Command line style guide"
-path = ".luma/bundles/lumastack/luma-catalog/command-line-interface/policy/command-line-style-guide.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/command-line-interface/policy/command-line-style-guide.md"
 on_violation = "allow"
 matches = ["eager"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/command-line-interface"
+bundle = "lumastack/luma-catalog-prototype/command-line-interface"
 document = "policy/exit-codes"
 title = "Exit codes are one set per tool"
-path = ".luma/bundles/lumastack/luma-catalog/command-line-interface/policy/exit-codes.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/command-line-interface/policy/exit-codes.md"
 on_violation = "allow"
 matches = ["topic:choosing or changing an exit code, or adding a subcommand that can fail in a new way"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/decision-records"
+bundle = "lumastack/luma-catalog-prototype/command-line-interface"
+document = "policy/output-patterns"
+title = "Output patterns"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/command-line-interface/policy/output-patterns.md"
+on_violation = "allow"
+matches = ["topic:writing or changing what a command prints — a refusal, a report, an empty result, or a listing"]
+
+[[rule]]
+bundle = "lumastack/luma-catalog-prototype/decision-records"
 document = "policy/decision-guidelines"
 title = "Writing a decision record"
-path = ".luma/bundles/lumastack/luma-catalog/decision-records/policy/decision-guidelines.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/decision-records/policy/decision-guidelines.md"
 on_violation = "allow"
 matches = ["topic:recording a decision, or deciding whether one is worth recording"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/git-secrets"
+bundle = "lumastack/luma-catalog-prototype/git-secrets"
 document = "policy/never-commit-credentials"
 title = "Credentials are never committed"
-path = ".luma/bundles/lumastack/luma-catalog/git-secrets/policy/never-commit-credentials.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/git-secrets/policy/never-commit-credentials.md"
 on_violation = "allow"
 matches = ["command:git commit", "command:git push", "event:before-commit"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/git-secrets"
+bundle = "lumastack/luma-catalog-prototype/git-secrets"
 document = "policy/never-commit-private-identity"
 title = "Private identity never reaches a repository"
-path = ".luma/bundles/lumastack/luma-catalog/git-secrets/policy/never-commit-private-identity.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/git-secrets/policy/never-commit-private-identity.md"
 on_violation = "allow"
 matches = ["eager"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/git-workflow"
+bundle = "lumastack/luma-catalog-prototype/git-workflow"
 document = "policy/merge-commits"
 title = "Integrate with merge commits"
-path = ".luma/bundles/lumastack/luma-catalog/git-workflow/policy/merge-commits.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/git-workflow/policy/merge-commits.md"
 on_violation = "allow"
 matches = ["eager"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/git-workflow"
+bundle = "lumastack/luma-catalog-prototype/git-workflow"
 document = "policy/proving-work-landed"
 title = "Proving work has landed"
-path = ".luma/bundles/lumastack/luma-catalog/git-workflow/policy/proving-work-landed.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/git-workflow/policy/proving-work-landed.md"
 on_violation = "allow"
 matches = ["topic:checking whether work has landed", "topic:finishing a piece of work"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/git-worktrees"
+bundle = "lumastack/luma-catalog-prototype/git-worktrees"
 document = "policy/worktree-isolation"
 title = "Worktree isolation"
-path = ".luma/bundles/lumastack/luma-catalog/git-worktrees/policy/worktree-isolation.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/git-worktrees/policy/worktree-isolation.md"
 on_violation = "allow"
 matches = ["eager"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/github-release"
+bundle = "lumastack/luma-catalog-prototype/github-release"
 document = "policy/changelog"
 title = "The changelog"
-path = ".luma/bundles/lumastack/luma-catalog/github-release/policy/changelog.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/github-release/policy/changelog.md"
 on_violation = "allow"
 matches = ["path:CHANGELOG.md"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/github-release"
+bundle = "lumastack/luma-catalog-prototype/github-release"
 document = "policy/release-notes"
 title = "Release titles and contents"
-path = ".luma/bundles/lumastack/luma-catalog/github-release/policy/release-notes.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/github-release/policy/release-notes.md"
 on_violation = "allow"
 matches = ["command:gh release create", "event:before-release"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/github-release"
+bundle = "lumastack/luma-catalog-prototype/github-release"
 document = "policy/release-versions"
 title = "Choosing a release version"
-path = ".luma/bundles/lumastack/luma-catalog/github-release/policy/release-versions.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/github-release/policy/release-versions.md"
 on_violation = "allow"
 matches = ["event:before-release", "topic:choosing which part of a version to bump"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/luma-config"
+bundle = "lumastack/luma-catalog-prototype/luma-config"
 document = "policy/where-configuration-lives"
 title = "Where configuration lives"
-path = ".luma/bundles/lumastack/luma-catalog/luma-config/policy/where-configuration-lives.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/luma-config/policy/where-configuration-lives.md"
 on_violation = "allow"
 matches = ["eager"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/luma-layout"
+bundle = "lumastack/luma-catalog-prototype/luma-layout"
 document = "policy/luma-directory-layout"
 title = "The .luma directory layout"
-path = ".luma/bundles/lumastack/luma-catalog/luma-layout/policy/luma-directory-layout.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/luma-layout/policy/luma-directory-layout.md"
 on_violation = "allow"
 matches = ["eager"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/luma-maintainers"
+bundle = "lumastack/luma-catalog-prototype/luma-maintainers"
 document = "policy/the-estate"
 title = "The estate, and what each repository owns"
-path = ".luma/bundles/lumastack/luma-catalog/luma-maintainers/policy/the-estate.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/luma-maintainers/policy/the-estate.md"
 on_violation = "allow"
 matches = ["eager"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/luma-tools"
+bundle = "lumastack/luma-catalog-prototype/luma-tools"
 document = "policy/what-each-tool-does"
 title = "What each luma tool does"
-path = ".luma/bundles/lumastack/luma-catalog/luma-tools/policy/what-each-tool-does.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/luma-tools/policy/what-each-tool-does.md"
 on_violation = "allow"
 matches = ["command:luma-foreman", "command:luma-catalog-curator", "topic:choosing which luma tool does a job"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/project-documentation"
+bundle = "lumastack/luma-catalog-prototype/project-documentation"
 document = "policy/documentation-layout"
 title = "Where documentation lives"
-path = ".luma/bundles/lumastack/luma-catalog/project-documentation/policy/documentation-layout.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/project-documentation/policy/documentation-layout.md"
 on_violation = "allow"
 matches = ["path:docs/**", "topic:deciding where a document belongs"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/project-documentation"
+bundle = "lumastack/luma-catalog-prototype/project-documentation"
 document = "policy/readme"
 title = "What a README is for"
-path = ".luma/bundles/lumastack/luma-catalog/project-documentation/policy/readme.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/project-documentation/policy/readme.md"
 on_violation = "allow"
 matches = ["eager"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/project-documentation"
+bundle = "lumastack/luma-catalog-prototype/project-documentation"
 document = "policy/reserved-document-names"
 title = "Reserved document names"
-path = ".luma/bundles/lumastack/luma-catalog/project-documentation/policy/reserved-document-names.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/project-documentation/policy/reserved-document-names.md"
 on_violation = "allow"
 matches = ["topic:naming a new file at a repository root"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/project-documentation"
+bundle = "lumastack/luma-catalog-prototype/project-documentation"
 document = "policy/the-project-descriptor"
 title = "The project descriptor"
-path = ".luma/bundles/lumastack/luma-catalog/project-documentation/policy/the-project-descriptor.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/project-documentation/policy/the-project-descriptor.md"
 on_violation = "allow"
 matches = ["path:.luma/PROJECT.md"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/project-documentation"
+bundle = "lumastack/luma-catalog-prototype/project-documentation"
 document = "policy/which-document"
 title = "Which document to write"
-path = ".luma/bundles/lumastack/luma-catalog/project-documentation/policy/which-document.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/project-documentation/policy/which-document.md"
 on_violation = "allow"
 matches = ["topic:deciding whether a document is worth writing"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/project-documentation"
+bundle = "lumastack/luma-catalog-prototype/project-documentation"
 document = "policy/writing-style"
 title = "Writing style"
-path = ".luma/bundles/lumastack/luma-catalog/project-documentation/policy/writing-style.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/project-documentation/policy/writing-style.md"
 on_violation = "allow"
 matches = ["topic:writing or editing prose"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/review-sweeps"
+bundle = "lumastack/luma-catalog-prototype/review-sweeps"
 document = "policy/choosing-an-order"
 title = "Choosing an order"
-path = ".luma/bundles/lumastack/luma-catalog/review-sweeps/policy/choosing-an-order.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/review-sweeps/policy/choosing-an-order.md"
 on_violation = "allow"
 matches = ["topic:deciding what to review first"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/review-sweeps"
+bundle = "lumastack/luma-catalog-prototype/review-sweeps"
 document = "policy/how-a-sweep-is-stored"
 title = "How a sweep is stored"
-path = ".luma/bundles/lumastack/luma-catalog/review-sweeps/policy/how-a-sweep-is-stored.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/review-sweeps/policy/how-a-sweep-is-stored.md"
 on_violation = "allow"
 matches = ["eager"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/review-sweeps"
+bundle = "lumastack/luma-catalog-prototype/review-sweeps"
 document = "policy/presenting-a-file"
 title = "Presenting a file"
-path = ".luma/bundles/lumastack/luma-catalog/review-sweeps/policy/presenting-a-file.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/review-sweeps/policy/presenting-a-file.md"
 on_violation = "allow"
 matches = ["topic:showing a file to somebody during a review"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/review-sweeps"
+bundle = "lumastack/luma-catalog-prototype/review-sweeps"
 document = "policy/the-pairing-turn"
 title = "The pairing turn"
-path = ".luma/bundles/lumastack/luma-catalog/review-sweeps/policy/the-pairing-turn.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/review-sweeps/policy/the-pairing-turn.md"
 on_violation = "allow"
 matches = ["topic:reviewing code alongside a second party", "topic:giving feedback on a file somebody is about to read"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/review-sweeps"
+bundle = "lumastack/luma-catalog-prototype/review-sweeps"
 document = "policy/what-a-slice-produces"
 title = "What a slice produces"
-path = ".luma/bundles/lumastack/luma-catalog/review-sweeps/policy/what-a-slice-produces.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/review-sweeps/policy/what-a-slice-produces.md"
 on_violation = "allow"
 matches = ["topic:acting on what a review turned up"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/review-sweeps"
+bundle = "lumastack/luma-catalog-prototype/review-sweeps"
 document = "policy/who-does-the-reading"
 title = "Who does the reading"
-path = ".luma/bundles/lumastack/luma-catalog/review-sweeps/policy/who-does-the-reading.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/review-sweeps/policy/who-does-the-reading.md"
 on_violation = "allow"
 matches = ["topic:who takes part in a review sweep"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/session-manager"
+bundle = "lumastack/luma-catalog-prototype/session-manager"
 document = "policy/session-continuity"
 title = "How a session survives its own end"
-path = ".luma/bundles/lumastack/luma-catalog/session-manager/policy/session-continuity.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/session-manager/policy/session-continuity.md"
 on_violation = "allow"
 matches = ["eager"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/session-manager"
+bundle = "lumastack/luma-catalog-prototype/session-manager"
 document = "policy/where-knowledge-goes"
 title = "Where knowledge goes"
-path = ".luma/bundles/lumastack/luma-catalog/session-manager/policy/where-knowledge-goes.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/session-manager/policy/where-knowledge-goes.md"
 on_violation = "allow"
 matches = ["topic:deciding where something worth keeping belongs"]
 
 [[rule]]
-bundle = "lumastack/luma-catalog/versioning"
+bundle = "lumastack/luma-catalog-prototype/versioning"
 document = "policy/semantic-versioning"
 title = "Semantic versioning"
-path = ".luma/bundles/lumastack/luma-catalog/versioning/policy/semantic-versioning.md"
+path = ".luma/bundles/lumastack/luma-catalog-prototype/versioning/policy/semantic-versioning.md"
 on_violation = "allow"
 matches = ["eager"]

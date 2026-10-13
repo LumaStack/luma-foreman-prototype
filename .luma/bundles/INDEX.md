@@ -6,23 +6,23 @@ Every container has an index. This is the project's: one entry per bundle, what 
 
 ## Offered — open a bundle's index when its line matches the work
 
-- `lumastack/luma-catalog/audit-records` 0.11.0 — Audits as records — findings written by one party, answered by another, closed by the first. The whole exchange lives in git.
-- `lumastack/luma-catalog/backlog` 0.49.0 — The record types a luma-backlog corpus conforms to, and the procedures for the things somebody does to a backlog — what an agent needs in order to work one well.
-- `lumastack/luma-catalog/backlog-ideas` 0.15.0 — Ideas as individual files rather than one growing IDEAS.md — what earns a file, how capture stays fast, and how the list gets tended rather than accumulating.
-- `lumastack/luma-catalog/bundle-manager` 0.17.0 — Creating, updating, auditing, repairing, migrating and retiring bundles — the layout they use and which catalog they belong in.
-- `lumastack/luma-catalog/command-line-interface` 0.5.0 — How this project designs its command line — the guidelines it follows, and the style guide its own commands are written to.
-- `lumastack/luma-catalog/decision-records` 0.13.0 — Decisions recorded with their reasoning, deferred alternatives, and re-open triggers. Spent decisions are archived rather than deleted.
-- `lumastack/luma-catalog/git-secrets` 0.8.0 — Keeping credentials and private identity out of a repository — names, personal addresses, home paths, machine names, tokens and key files. Prevention first, then audit.
-- `lumastack/luma-catalog/git-workflow` 0.9.0 — How changes get integrated — merge commits rather than squash or rebase, the repository settings that make it true, and how to prove a change actually landed.
-- `lumastack/luma-catalog/git-worktrees` 0.9.0 — Isolated worktrees for concurrent agents in one repository — where they live, what has to be provisioned, and how to tear them down without leaving wreckage.
-- `lumastack/luma-catalog/github-release` 0.10.0 — Cutting and publishing GitHub releases — choosing the version, the changelog, release titles and contents, and the gh procedure.
-- `lumastack/luma-catalog/luma-config` 0.11.0 — Where luma configuration lives, what is committed and what belongs to the machine, and the order in which layers win.
-- `lumastack/luma-catalog/luma-layout` 0.17.0 — The .luma directory every luma tool writes into — the four tiers, what belongs in each, and the committed-only invariant that makes it trustworthy.
-- `lumastack/luma-catalog/luma-maintainers` 0.14.0 — Working on the luma tools themselves — the repositories and the boundary each defends, publishing to the universal catalog, and changing a type without making every tool upgrade at once.
-- `lumastack/luma-catalog/luma-tools` 0.13.0 — Using the luma tools — which one does what, getting them onto a machine, standing a project up, and the get-then-apply loop that puts knowledge in front of an agent.
-- `lumastack/luma-catalog/luma-types` 0.16.0 — The type definitions more than one luma tool has to agree on — namespaced, vendored, and deliberately not built into the knowledge format.
-- `lumastack/luma-catalog/project-documentation` 0.20.0 — The prose a repository publishes — where it lives, what a README is for, and which documents are worth having at all.
-- `lumastack/luma-catalog/review-sweeps` 0.33.0 — The review sweep — reading a whole codebase with an agent beside you, ordered and resumable, with the reader's own read as the thing being protected.
-- `lumastack/luma-catalog/session-manager` 0.10.0 — Ending an agent session without losing what it learned — checkpoint while working, hand off to a successor, or close for good, each writing for a different reader.
-- `lumastack/luma-catalog/token-manager` 0.13.0 — Where an agent session's tokens actually go — a paced tutorial on the mechanism and the fixes that follow from it, and an audit that measures a real setup instead of guessing at it.
-- `lumastack/luma-catalog/versioning` 0.8.0 — What a version number promises, when to bump which part, and the rules that get decided wrongly — for anything versioned, not only releases.
+- `lumastack/luma-catalog-prototype/audit-records` 0.11.0 — Audits as records — findings written by one party, answered by another, closed by the first. The whole exchange lives in git.
+- `lumastack/luma-catalog-prototype/backlog` 0.49.1 — The record types a luma-backlog corpus conforms to, and the procedures for the things somebody does to a backlog — what an agent needs in order to work one well.
+- `lumastack/luma-catalog-prototype/backlog-ideas` 0.15.0 — Ideas as individual files rather than one growing IDEAS.md — what earns a file, how capture stays fast, and how the list gets tended rather than accumulating.
+- `lumastack/luma-catalog-prototype/bundle-manager` 0.17.0 — Creating, updating, auditing, repairing, migrating and retiring bundles — the layout they use and which catalog they belong in.
+- `lumastack/luma-catalog-prototype/command-line-interface` 0.6.0 — How this project designs its command line — the guidelines it follows, and the style guide its own commands are written to.
+- `lumastack/luma-catalog-prototype/decision-records` 0.13.0 — Decisions recorded with their reasoning, deferred alternatives, and re-open triggers. Spent decisions are archived rather than deleted.
+- `lumastack/luma-catalog-prototype/git-secrets` 0.8.0 — Keeping credentials and private identity out of a repository — names, personal addresses, home paths, machine names, tokens and key files. Prevention first, then audit.
+- `lumastack/luma-catalog-prototype/git-workflow` 0.9.0 — How changes get integrated — merge commits rather than squash or rebase, the repository settings that make it true, and how to prove a change actually landed.
+- `lumastack/luma-catalog-prototype/git-worktrees` 0.9.0 — Isolated worktrees for concurrent agents in one repository — where they live, what has to be provisioned, and how to tear them down without leaving wreckage.
+- `lumastack/luma-catalog-prototype/github-release` 0.10.0 — Cutting and publishing GitHub releases — choosing the version, the changelog, release titles and contents, and the gh procedure.
+- `lumastack/luma-catalog-prototype/luma-config` 0.11.0 — Where luma configuration lives, what is committed and what belongs to the machine, and the order in which layers win.
+- `lumastack/luma-catalog-prototype/luma-layout` 0.17.0 — The .luma directory every luma tool writes into — the four tiers, what belongs in each, and the committed-only invariant that makes it trustworthy.
+- `lumastack/luma-catalog-prototype/luma-maintainers` 0.16.0 — Working on the luma tools themselves — the repositories and the boundary each defends, publishing to the universal catalog, and changing a type without making every tool upgrade at once.
+- `lumastack/luma-catalog-prototype/luma-tools` 0.13.0 — Using the luma tools — which one does what, getting them onto a machine, standing a project up, and the get-then-apply loop that puts knowledge in front of an agent.
+- `lumastack/luma-catalog-prototype/luma-types` 0.16.0 — The type definitions more than one luma tool has to agree on — namespaced, vendored, and deliberately not built into the knowledge format.
+- `lumastack/luma-catalog-prototype/project-documentation` 0.20.0 — The prose a repository publishes — where it lives, what a README is for, and which documents are worth having at all.
+- `lumastack/luma-catalog-prototype/review-sweeps` 0.33.0 — The review sweep — reading a whole codebase with an agent beside you, ordered and resumable, with the reader's own read as the thing being protected.
+- `lumastack/luma-catalog-prototype/session-manager` 0.10.0 — Ending an agent session without losing what it learned — checkpoint while working, hand off to a successor, or close for good, each writing for a different reader.
+- `lumastack/luma-catalog-prototype/token-manager` 0.13.0 — Where an agent session's tokens actually go — a paced tutorial on the mechanism and the fixes that follow from it, and an audit that measures a real setup instead of guessing at it.
+- `lumastack/luma-catalog-prototype/versioning` 0.9.0 — What a version number promises, when to bump which part, and the rules that get decided wrongly — for anything versioned, not only releases.

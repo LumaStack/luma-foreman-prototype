@@ -5,83 +5,83 @@
 
 # Bundles
 
-- `lumastack/luma-catalog/audit-records` 0.11.0
-  - catalog: lumastack/luma-catalog
-  - commit: d5d3b50c1f66dad0aaf78ac82ee381f87714088c
-  - sha256: d8cfb0aa5fea83c29ce3991dad647b7e64ec575d9ffa8a5cb10ac1e002b3f6e0
-- `lumastack/luma-catalog/backlog` 0.49.0
-  - catalog: lumastack/luma-catalog
-  - commit: e7a4ce7a698e53e15261f8bfc191e0390adeec54
-  - sha256: b36067d9e842d46412c47c5f473b5fbea72a392a5fdb3c3aa786e12bdbed77f3
-- `lumastack/luma-catalog/backlog-ideas` 0.15.0
-  - catalog: lumastack/luma-catalog
-  - commit: d5d3b50c1f66dad0aaf78ac82ee381f87714088c
-  - sha256: af602d9cd72ed63ceef0b023c79d6f99e71a198749ffea64c42e5e6ca342da88
-- `lumastack/luma-catalog/bundle-manager` 0.17.0
-  - catalog: lumastack/luma-catalog
-  - commit: d5d3b50c1f66dad0aaf78ac82ee381f87714088c
-  - sha256: 8f88b94571338f369ef909899cd63188de67ded64a873b277011b20452d233e9
-- `lumastack/luma-catalog/command-line-interface` 0.5.0
-  - catalog: lumastack/luma-catalog
-  - commit: d5d3b50c1f66dad0aaf78ac82ee381f87714088c
-  - sha256: 7c8f2eb227a3de661a490f3e14f698dbba1751c14e99d216d60804cded3b9a41
-- `lumastack/luma-catalog/decision-records` 0.13.0
-  - catalog: lumastack/luma-catalog
-  - commit: d5d3b50c1f66dad0aaf78ac82ee381f87714088c
-  - sha256: 11eee9900f6636a64e955545aa259d1427bfee00790c77819a090d806d01a0ef
-- `lumastack/luma-catalog/git-secrets` 0.8.0
-  - catalog: lumastack/luma-catalog
-  - commit: d5d3b50c1f66dad0aaf78ac82ee381f87714088c
-  - sha256: e6e86c86f084fb4dbff6a0de90a494e551a623cd1a1772f54e0cda7b47aa11fe
-- `lumastack/luma-catalog/git-workflow` 0.9.0
-  - catalog: lumastack/luma-catalog
-  - commit: d5d3b50c1f66dad0aaf78ac82ee381f87714088c
-  - sha256: 5bca9eb398ea5e750cf636cee4b988b6027ab334fe10f626abd207fb85fb3975
-- `lumastack/luma-catalog/git-worktrees` 0.9.0
-  - catalog: lumastack/luma-catalog
-  - commit: d5d3b50c1f66dad0aaf78ac82ee381f87714088c
-  - sha256: 08b9a457e084f97145b83c555a078f2fbd88f36eb329a647bccf5f0f05b8fa2c
-- `lumastack/luma-catalog/github-release` 0.10.0
-  - catalog: lumastack/luma-catalog
-  - commit: d5d3b50c1f66dad0aaf78ac82ee381f87714088c
-  - sha256: 247164c1b96309f6c4401af92741529b732a309f13397877ead8e9c5fa9e834b
-- `lumastack/luma-catalog/luma-config` 0.11.0
-  - catalog: lumastack/luma-catalog
-  - commit: d5d3b50c1f66dad0aaf78ac82ee381f87714088c
-  - sha256: aeb8a061353f3eb7140a726886419ac6c8db1d32f8b0bb60f99878a8058dfd6d
-- `lumastack/luma-catalog/luma-layout` 0.17.0
-  - catalog: lumastack/luma-catalog
-  - commit: d5d3b50c1f66dad0aaf78ac82ee381f87714088c
-  - sha256: e90a96a054da67713efa21047de29815128bce72440d005bb8f0b0bd403608aa
-- `lumastack/luma-catalog/luma-maintainers` 0.14.0
-  - catalog: lumastack/luma-catalog
-  - commit: d5d3b50c1f66dad0aaf78ac82ee381f87714088c
-  - sha256: 68972eca217fb6458e6ac0de0f5045fa1d5f215f19d99fd52632d8db2db03561
-- `lumastack/luma-catalog/luma-tools` 0.13.0
-  - catalog: lumastack/luma-catalog
-  - commit: d5d3b50c1f66dad0aaf78ac82ee381f87714088c
-  - sha256: c62cf721d2f748bf3b6cf80cd3acbf6e113b8aca94361579c71025a9739577c8
-- `lumastack/luma-catalog/luma-types` 0.16.0
-  - catalog: lumastack/luma-catalog
-  - commit: d5d3b50c1f66dad0aaf78ac82ee381f87714088c
-  - sha256: e06b443b07d191c79fb077d7e97e7425fbec2a944a3379d400feccd829e5f9fb
-- `lumastack/luma-catalog/project-documentation` 0.20.0
-  - catalog: lumastack/luma-catalog
-  - commit: d5d3b50c1f66dad0aaf78ac82ee381f87714088c
-  - sha256: 82847db74ca5614e86bc9acf9508bf5a816671e72e9a8e49a0044dbc474e2fa2
-- `lumastack/luma-catalog/review-sweeps` 0.33.0
-  - catalog: lumastack/luma-catalog
-  - commit: c43517bf6b42c62b42313c16671c865c6ce9184c
-  - sha256: bbb1267034cd40c6483e2b572079c0ca218ef96ee6c6bd64f465c007cfd95375
-- `lumastack/luma-catalog/session-manager` 0.10.0
-  - catalog: lumastack/luma-catalog
-  - commit: d5d3b50c1f66dad0aaf78ac82ee381f87714088c
-  - sha256: 4c5c8307a4eedb2803303d3580e064138ea2960b4ab460b4987b96a56d7740a5
-- `lumastack/luma-catalog/token-manager` 0.13.0
-  - catalog: lumastack/luma-catalog
-  - commit: d5d3b50c1f66dad0aaf78ac82ee381f87714088c
-  - sha256: b380e96611f05e7325579090dce3a912710c74476ac69d487d22c3ed258ba125
-- `lumastack/luma-catalog/versioning` 0.8.0
-  - catalog: lumastack/luma-catalog
-  - commit: d5d3b50c1f66dad0aaf78ac82ee381f87714088c
-  - sha256: 68a3553180d9b842f825945554fffbc45e822622d231810828b49f3e9a2f3171
+- `lumastack/luma-catalog-prototype/audit-records` 0.11.0
+  - catalog: lumastack/luma-catalog-prototype
+  - commit: 60c5ad37cb6b07d7d537c50fcda4ceaa1e4046ea
+  - sha256: 249b595034980c000c2b9c5f0ef8050b14a5b5165184e8925c4e35c953714807
+- `lumastack/luma-catalog-prototype/backlog` 0.49.1
+  - catalog: lumastack/luma-catalog-prototype
+  - commit: 60c5ad37cb6b07d7d537c50fcda4ceaa1e4046ea
+  - sha256: 7c3f62c755e6d87850747fff7cba13faef279915c673fbc4d091d89d403c8ff0
+- `lumastack/luma-catalog-prototype/backlog-ideas` 0.15.0
+  - catalog: lumastack/luma-catalog-prototype
+  - commit: 60c5ad37cb6b07d7d537c50fcda4ceaa1e4046ea
+  - sha256: 5e34bf037c5412ecb402bcf767c9a22e20803735ac211e962124993da1dd5a53
+- `lumastack/luma-catalog-prototype/bundle-manager` 0.17.0
+  - catalog: lumastack/luma-catalog-prototype
+  - commit: 60c5ad37cb6b07d7d537c50fcda4ceaa1e4046ea
+  - sha256: 38a9d9644dd00776b348717b6bca290b29128b0fb923f14b4895e7e3c30277ad
+- `lumastack/luma-catalog-prototype/command-line-interface` 0.6.0
+  - catalog: lumastack/luma-catalog-prototype
+  - commit: 60c5ad37cb6b07d7d537c50fcda4ceaa1e4046ea
+  - sha256: 5011a7f46f4ebe8d5687897f89aadd41797b0abf4fb261823a0f66ff58a812ee
+- `lumastack/luma-catalog-prototype/decision-records` 0.13.0
+  - catalog: lumastack/luma-catalog-prototype
+  - commit: 60c5ad37cb6b07d7d537c50fcda4ceaa1e4046ea
+  - sha256: 56272e590285793e3d75a3f245f7f7fe722f2bdac4077c50740a54eb2302fb18
+- `lumastack/luma-catalog-prototype/git-secrets` 0.8.0
+  - catalog: lumastack/luma-catalog-prototype
+  - commit: 60c5ad37cb6b07d7d537c50fcda4ceaa1e4046ea
+  - sha256: 625193244307a940c15f660c32f090960e191ac1090b7de16a4f4655a03e5c73
+- `lumastack/luma-catalog-prototype/git-workflow` 0.9.0
+  - catalog: lumastack/luma-catalog-prototype
+  - commit: 60c5ad37cb6b07d7d537c50fcda4ceaa1e4046ea
+  - sha256: 9de1438d9dd3e384cd28baf17920ef9b04f000a4cbb60404e22e2aec9e8cfaa4
+- `lumastack/luma-catalog-prototype/git-worktrees` 0.9.0
+  - catalog: lumastack/luma-catalog-prototype
+  - commit: 60c5ad37cb6b07d7d537c50fcda4ceaa1e4046ea
+  - sha256: df64708943e510903b384fd18af600a51c126b6b54aefa28b4924aec4b3f1a6c
+- `lumastack/luma-catalog-prototype/github-release` 0.10.0
+  - catalog: lumastack/luma-catalog-prototype
+  - commit: 60c5ad37cb6b07d7d537c50fcda4ceaa1e4046ea
+  - sha256: 215e60440258bb1341267a90e4b23b8097dc478d71e3e1e444f8f48b4a18e728
+- `lumastack/luma-catalog-prototype/luma-config` 0.11.0
+  - catalog: lumastack/luma-catalog-prototype
+  - commit: 60c5ad37cb6b07d7d537c50fcda4ceaa1e4046ea
+  - sha256: 4f465a6d79c4f4512be1b90cfabae01aec1ca9937661f0e93abb25ff4f9ab4ed
+- `lumastack/luma-catalog-prototype/luma-layout` 0.17.0
+  - catalog: lumastack/luma-catalog-prototype
+  - commit: 60c5ad37cb6b07d7d537c50fcda4ceaa1e4046ea
+  - sha256: b7ea82cdedf0d46d91294d84a9d35b2e796b6797fb8148226b205de4a5f4a243
+- `lumastack/luma-catalog-prototype/luma-maintainers` 0.16.0
+  - catalog: lumastack/luma-catalog-prototype
+  - commit: 60c5ad37cb6b07d7d537c50fcda4ceaa1e4046ea
+  - sha256: 9d5eaad569576d32fdcb23becdcd4ec2e35a63d5bc2e2634ecda586ae29968b6
+- `lumastack/luma-catalog-prototype/luma-tools` 0.13.0
+  - catalog: lumastack/luma-catalog-prototype
+  - commit: 60c5ad37cb6b07d7d537c50fcda4ceaa1e4046ea
+  - sha256: 847e7635147e27059563d34d945cbf46382cd5fb0180740ab98d8aea9ff20b6b
+- `lumastack/luma-catalog-prototype/luma-types` 0.16.0
+  - catalog: lumastack/luma-catalog-prototype
+  - commit: 60c5ad37cb6b07d7d537c50fcda4ceaa1e4046ea
+  - sha256: a07fb1bd2e974b93b697cfc30c77c228e0eb684893d8d6240ea418697dda60f0
+- `lumastack/luma-catalog-prototype/project-documentation` 0.20.0
+  - catalog: lumastack/luma-catalog-prototype
+  - commit: 60c5ad37cb6b07d7d537c50fcda4ceaa1e4046ea
+  - sha256: 186e236ff0a8b76bd4354efb61f951ce683270edb8d9337442c08f31ca206ff7
+- `lumastack/luma-catalog-prototype/review-sweeps` 0.33.0
+  - catalog: lumastack/luma-catalog-prototype
+  - commit: 60c5ad37cb6b07d7d537c50fcda4ceaa1e4046ea
+  - sha256: e65881b2dd432b9d15fde78f4e3121753752dbec7f2c71a05b836b1f90915ac4
+- `lumastack/luma-catalog-prototype/session-manager` 0.10.0
+  - catalog: lumastack/luma-catalog-prototype
+  - commit: 60c5ad37cb6b07d7d537c50fcda4ceaa1e4046ea
+  - sha256: 1ddbe95c09210e4a65261602e15992954b4d4a7eb641bb6adfe76943a7124892
+- `lumastack/luma-catalog-prototype/token-manager` 0.13.0
+  - catalog: lumastack/luma-catalog-prototype
+  - commit: 60c5ad37cb6b07d7d537c50fcda4ceaa1e4046ea
+  - sha256: 166b6e94586d0c73123cea132ba9da306585933297c0ed1dc216c05f43e1b146
+- `lumastack/luma-catalog-prototype/versioning` 0.9.0
+  - catalog: lumastack/luma-catalog-prototype
+  - commit: 60c5ad37cb6b07d7d537c50fcda4ceaa1e4046ea
+  - sha256: bf4f9b95e7836ec6803051b825c9e5ae4bdfb24228a5acaf78df852d5dd464cc
