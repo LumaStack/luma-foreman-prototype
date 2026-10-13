@@ -63,7 +63,7 @@ repository is the operator's call on their own machine, not a property of the
 repository that every clone should inherit.
 
 Paths follow XDG, nested `~/.config/<org>/<application>/` — see
-[`where-configuration-lives`](../.luma/bundles/lumastack/luma-catalog/luma-config/policy/where-configuration-lives.md)
+[`where-configuration-lives`](../.luma/bundles/lumastack/luma-catalog-prototype/luma-config/policy/where-configuration-lives.md)
 in the adopted `luma-config` bundle, which is where that rule is decided.
 
 ## Which commands run where

@@ -79,5 +79,5 @@ except = [
   ".luma/backlog/sweeps/the-whole-of-foreman/journal.md",  # lists what was retired
 ]
 
-[catalog."lumastack/luma-catalog"]
-source = "https://github.com/LumaStack/luma-catalog"
+[catalog."lumastack/luma-catalog-prototype"]
+source = "https://github.com/LumaStack/luma-catalog-prototype"
